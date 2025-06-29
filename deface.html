@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacked by Akirogas</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom CSS for the Matrix effect canvas */
+        body {
+            margin: 0;
+            overflow: hidden; /* Hide scrollbars */
+            font-family: 'Inter', sans-serif; /* Use Inter font */
+        }
+        canvas {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1; /* Send canvas to background */
+            background-color: #000; /* Ensure black background for matrix effect */
+        }
+
+        /* Custom animation for the new text */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Glitch animation for the text */
+        @keyframes glitch {
+            0% {
+                text-shadow: 0.05em 0 0 #0f0, -0.02em -0.04em 0 #00f, 0.025em 0.05em 0 #f00;
+                transform: translate(-0.01em, -0.01em);
+            }
+            14% {
+                text-shadow: none;
+                transform: none;
+            }
+            15% {
+                text-shadow: 0.05em 0 0 #0f0, -0.02em -0.04em 0 #00f, 0.025em 0.05em 0 #f00;
+                transform: translate(-0.01em, -0.01em);
+            }
+            19% {
+                text-shadow: none;
+                transform: none;
+            }
+            20% {
+                text-shadow: -0.05em 0 0 #0f0, 0.02em 0.04em 0 #00f, -0.025em -0.05em 0 #f00;
+                transform: translate(0.01em, 0.01em);
+            }
+            24% {
+                text-shadow: none;
+                transform: none;
+            }
+            25% {
+                text-shadow: 0.05em 0 0 #0f0, -0.02em -0.04em 0 #00f, 0.025em 0.05em 0 #f00;
+                transform: translate(-0.01em, -0.01em);
+            }
+            29% {
+                text-shadow: none;
+                transform: none;
+            }
+            30% {
+                text-shadow: -0.05em 0 0 #0f0, 0.02em 0.04em 0 #00f, -0.025em -0.05em 0 #f00;
+                transform: translate(0.01em, 0.01em);
+            }
+            34% {
+                text-shadow: none;
+                transform: none;
+            }
+            35% {
+                text-shadow: 0.05em 0 0 #0f0, -0.02em -0.04em 0 #00f, 0.025em 0.05em 0 #f00;
+                transform: translate(-0.01em, -0.01em);
+            }
+            39% {
+                text-shadow: none;
+                transform: none;
+            }
+            40% {
+                text-shadow: -0.05em 0 0 #0f0, 0.02em 0.04em 0 #00f, -0.025em -0.05em 0 #f00;
+                transform: translate(0.01em, 0.01em);
+            }
+            44% {
+                text-shadow: none;
+                transform: none;
+            }
+            45% {
+                text-shadow: 0.05em 0 0 #0f0, -0.02em -0.04em 0 #00f, 0.025em 0.05em 0 #f00;
+                transform: translate(-0.01em, -0.01em);
+            }
+            49% {
+                text-shadow: none;
+                transform: none;
+            }
+            50% {
+                text-shadow: -0.05em 0 0 #0f0, 0.02em 0.04em 0 #00f, -0.025em -0.05em 0 #f00;
+                transform: translate(0.01em, 0.01em);
+            }
+            54% {
+                text-shadow: none;
+                transform: none;
+            }
+            55% {
+                text-shadow: 0.05em 0 0 #0f0, -0.02em -0.04em 0 #00f, 0.025em 0.05em 0 #f00;
+                transform: translate(-0.01em, -0.01em);
+            }
+            59% {
+                text-shadow: none;
+                transform: none;
+            }
+            60% {
+                text-shadow: -0.05em 0 0 #0f0, 0.02em 0.04em 0 #00f, -0.025em -0.05em 0 #f00;
+                transform: translate(0.01em, 0.01em);
+            }
+            64% {
+                text-shadow: none;
+                transform: none;
+            }
+            65% {
+                text-shadow: 0.05em 0 0 #0f0, -0.02em -0.04em 0 #00f, 0.025em 0.05em 0 #f00;
+                transform: translate(-0.01em, -0.01em);
+            }
+            69% {
+                text-shadow: none;
+                transform: none;
+            }
+            70% {
+                text-shadow: -0.05em 0 0 #0f0, 0.02em 0.04em 0 #00f, -0.025em -0.05em 0 #f00;
+                transform: translate(0.01em, 0.01em);
+            }
+            74% {
+                text-shadow: none;
+                transform: none;
+            }
+            75% {
+                text-shadow: 0.05em 0 0 #0f0, -0.02em -0.04em 0 #00f, 0.025em 0.05em 0 #f00;
+                transform: translate(-0.01em, -0.01em);
+            }
+            79% {
+                text-shadow: none;
+                transform: none;
+            }
+            80% {
+                text-shadow: -0.05em 0 0 #0f0, 0.02em 0.04em 0 #00f, -0.025em -0.05em 0 #f00;
+                transform: translate(0.01em, 0.01em);
+            }
+            84% {
+                text-shadow: none;
+                transform: none;
+            }
+            85% {
+                text-shadow: 0.05em 0 0 #0f0, -0.02em -0.04em 0 #00f, 0.025em 0.05em 0 #f00;
+                transform: translate(-0.01em, -0.01em);
+            }
+            89% {
+                text-shadow: none;
+                transform: none;
+            }
+            90% {
+                text-shadow: -0.05em 0 0 #0f0, 0.02em 0.04em 0 #00f, -0.025em -0.05em 0 #f00;
+                transform: translate(0.01em, 0.01em);
+            }
+            94% {
+                text-shadow: none;
+                transform: none;
+            }
+            95% {
+                text-shadow: 0.05em 0 0 #0f0, -0.02em -0.04em 0 #00f, 0.025em 0.05em 0 #f00;
+                transform: translate(-0.01em, -0.01em);
+            }
+            99% {
+                text-shadow: none;
+                transform: none;
+            }
+            100% {
+                text-shadow: 0.05em 0 0 #0f0, -0.02em -0.04em 0 #00f, 0.025em 0.05em 0 #f00;
+                transform: translate(-0.01em, -0.01em);
+            }
+        }
+
+        .glitch-animation {
+            animation: fadeIn 2s ease-in-out forwards, glitch 10s infinite steps(1) 2s; /* Fade in then glitch after 2s */
+        }
+    </style>
+</head>
+<body class="bg-black text-green-400 flex items-center justify-center min-h-screen">
+    <!-- Canvas for the Matrix effect -->
+    <canvas id="matrixCanvas"></canvas>
+
+    <!-- Deface content -->
+    <div class="text-center p-8 bg-gray-900 bg-opacity-75 rounded-lg shadow-2xl border-2 border-green-500 max-w-2xl mx-4">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-4 animate-pulse text-green-300">
+            HACKED BY <span class="text-green-500">AKIROGAS</span>
+        </h1>
+        <!-- Updated paragraph with animation -->
+        <p class="text-xl md:text-2xl mb-6 text-gray-200 glitch-animation">
+            Your system has several vulnerabilities; please repair them.
+        </p>
+        <p class="text-lg md:text-xl text-gray-300">
+            "Otherwise, it'll come again."
+        </p>
+        <div class="mt-8">
+            <a href="#" class="inline-block px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-bold rounded-full transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+                System Offline
+            </a>
+        </div>
+    </div>
+
+    <script>
+        // Get the canvas element and its 2D rendering context
+        const canvas = document.getElementById('matrixCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Set canvas dimensions to fill the window
+        let width = window.innerWidth;
+        let height = window.innerHeight;
+        canvas.width = width;
+        canvas.height = height;
+
+        // Characters for the Matrix effect (Japanese Katakana and numbers)
+        const katakana = 'アァカサタナハマヤラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユルグズヅブプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨロヲゴゾドボポヴッン0123456789';
+        const characters = katakana.split(''); // Split into an array of characters
+
+        // Calculate the font size and number of columns based on canvas width
+        const fontSize = 16;
+        const columns = Math.floor(width / fontSize);
+
+        // Initialize an array to track the y-position of each column's falling character
+        const drops = [];
+        for (let i = 0; i < columns; i++) {
+            drops[i] = 1; // Start each column at the top
+        }
+
+        // Function to draw the Matrix effect
+        function drawMatrix() {
+            // Semi-transparent black rectangle to fade out old characters (creates the trailing effect)
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+            ctx.fillRect(0, 0, width, height);
+
+            // Set text color and font for the falling characters
+            ctx.fillStyle = '#0F0'; // Green color for the matrix code
+            ctx.font = `${fontSize}px monospace`; // Monospace font for consistent character width
+
+            // Loop through each column
+            for (let i = 0; i < drops.length; i++) {
+                // Get a random character from the 'characters' array
+                const text = characters[Math.floor(Math.random() * characters.length)];
+
+                // Draw the character at the current x and y position
+                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+                // If the character has fallen off the bottom of the screen, or randomly,
+                // reset its position to the top to simulate a new drop
+                if (drops[i] * fontSize > height && Math.random() > 0.975) {
+                    drops[i] = 0; // Reset to the top
+                }
+
+                // Increment the y-position of the character to make it fall
+                drops[i]++;
+            }
+        }
+
+        // Animation loop: continuously call drawMatrix
+        function animate() {
+            drawMatrix();
+            requestAnimationFrame(animate); // Request the next animation frame
+        }
+
+        // Handle window resizing to adjust canvas dimensions and redraw
+        window.addEventListener('resize', () => {
+            width = window.innerWidth;
+            height = window.innerHeight;
+            canvas.width = width;
+            canvas.height = height;
+            // Re-initialize drops array for new column count
+            const newColumns = Math.floor(width / fontSize);
+            drops.length = newColumns; // Adjust array size
+            for (let i = 0; i < newColumns; i++) {
+                if (drops[i] === undefined) {
+                    drops[i] = 1; // Initialize new columns
+                }
+            }
+        });
+
+        // Start the animation when the window loads
+        window.onload = function() {
+            animate();
+        };
+    </script>
+</body>
+</html>
