@@ -275,7 +275,8 @@
     [**httpx**](https://github.com/projectdiscovery/httpx)
   ```
   cat wordlist.txt | httpx | tee -a vweb-httpx-active.txt
-    httpx -l vwev-urls.txt
+  httpx -l vwev-urls.txt
+  httpx -l vwev-urls.txt -sc
   ```
     
     [**httprobe**](https://github.com/tomnomnom/httprobe)
