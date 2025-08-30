@@ -258,6 +258,9 @@
 - Verify Active Items
     
     [**httpx**](https://github.com/projectdiscovery/httpx)
+  ```
+  cat wordlist.txt | httpx | tee -a vweb-httpx-active.txt
+  ```
     
     [**httprobe**](https://github.com/tomnomnom/httprobe)
     
