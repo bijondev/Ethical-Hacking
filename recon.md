@@ -64,149 +64,148 @@
                 zoomeyeapi: [F3808CF8-b35F-F6093-54f3-492ec]
       
       ```
-
       - **Api Setup Guid**
-                - **bevigil**
+        - **bevigil**
                     
-                    **Note:** You can scan 50 times per month with this web application api. You can create another account to get another 50 cradit.😁
+            **Note:** You can scan 50 times per month with this web application api. You can create another account to get another 50 cradit.😁
                     
-                    [**Signup](https://bevigil.com/login)  (Enter any Email then put verification code to sign-up)**
+            [**Signup](https://bevigil.com/login)  (Enter any Email then put verification code to sign-up)**
                     
-                    [**Api**](https://bevigil.com/osint/api-keys)
+            [**Api**](https://bevigil.com/osint/api-keys)
                     
-                - **binaryedge**
+            - **binaryedge**
                     
-                    [**Sign-up**](https://app.binaryedge.io/sign-up)
+            [**Sign-up**](https://app.binaryedge.io/sign-up)
                     
-                    [**Api**](https://app.binaryedge.io/account/api)
+            [**Api**](https://app.binaryedge.io/account/api)
                     
-                    Put any name on the box to generate api.
+            Put any name on the box to generate api.
                     
-                - **bufferover**
+            - **bufferover**
                     
-                    [Request a x-api-key](https://tls.bufferover.run/) (Submit email on free package 100 scan per month)
+            [Request a x-api-key](https://tls.bufferover.run/) (Submit email on free package 100 scan per month)
                     
-                    You will get api through your email.
+            You will get api through your email.
                     
-                - **certspotter**
+            - **certspotter**
                     
-                    [**Sign-up**](https://sslmate.com/signup?for=certspotter)
+            [**Sign-up**](https://sslmate.com/signup?for=certspotter)
                     
-                    [**Api**](https://sslmate.com/account/api_keys)
+            [**Api**](https://sslmate.com/account/api_keys)
                     
-                    Put any name and select Full Access. Then submit to get api key
+            Put any name and select Full Access. Then submit to get api key
                     
-                - **chaos**
+            - **chaos**
                     
-                    [**Signup**](https://cloud.projectdiscovery.io/)
+            [**Signup**](https://cloud.projectdiscovery.io/)
                     
-                    [**Api**](https://cloud.projectdiscovery.io/scans?ref=api_key)
+            [**Api**](https://cloud.projectdiscovery.io/scans?ref=api_key)
                     
-                - **fullhunt**
+            - **fullhunt**
                     
-                    [**Sign-up**](https://fullhunt.io/signup/)
+            [**Sign-up**](https://fullhunt.io/signup/)
                     
-                    [**Api**](https://fullhunt.io/user/settings/)
+            [**Api**](https://fullhunt.io/user/settings/)
                     
-                - **github**
+            - **github**
                     
-                    [**Sign-up**](https://github.com/signup)
+            [**Sign-up**](https://github.com/signup)
                     
-                    - Go to https://github.com/settings/tokens.
-                    - Click on "Generate new token."
-                    - Give your token a descriptive name (e.g.: "Subfinder").
-                    - Select All repository.
-                    - Click "Generate token."
-                    - **Copy the generated token immediately. You won't be able to see it again.**
-                - **intelx**
-                    
-                    [**Signup**](https://intelx.io/signup)
-                    
-                    [**Api**](https://intelx.io/account?tab=developer)
-                    
-                    **Api config formate:** [2.intelx.io:**API_key**]
-                    
-                - **redhuntlabs**
-                    
-                    [**Sign-up**](https://devportal.redhuntlabs.com/)
-                    
-                    [**Subscribe FREE**](https://devportal.redhuntlabs.com/)
-                    
-                    [**Api**](https://devportal.redhuntlabs.com/keys)
-                    
-                    **Api config formate:** [https://reconapi.redhuntlabs.com/community/v1/domains/subdomains:**API_Key**]
-                    
-                - **securitytrails**
-                    
-                    **Note: 50 Cradit free per month**
-                    
-                    [**Sign-up**](https://securitytrails.com/app/signup)
-                    
-                    [**Api**](https://securitytrails.com/app/account/credentials)
-                    
-                - **shodan**
-                    
-                    [**Register**](https://account.shodan.io/register)
-                    
-                    [**Api**](https://account.shodan.io/)
-                    
-                - **virustotal**
-                    
-                    [**Sign-up**](https://www.virustotal.com/gui/join-us)
-                    
-                    Api [[https://www.virustotal.com/gui/user/**Your_Username**/apikey]](https://www.virustotal.com/gui/user/Your_Username/apikey)
-                    
-                - **whoisxmlapi**
-                    
-                    **Note: 50 scan for trail trail**
-                    
-                    [**Sign-up**](https://main.whoisxmlapi.com/signup?lang=en)
-                    
-                    [**Api**](https://user.whoisxmlapi.com/products)
-                    
-                - **zoomeyeapi**
-                    
-                    [**Sign-up**](https://sso.telnet404.com/accounts/register/)
-                    
-                    [**Api**](https://www.zoomeye.org/profile)
-                    
-                - **builtwith**
-                    
-                    **Note: Dont use tempmail**
-                    
-                    [**Sign-up**](https://builtwith.com/signup)
-                    
-                    [**Api**](https://api.builtwith.com/)
-                    
-                
-                **censys**
-                
-                netlas
-                
-                leakix
-                
-                passivetotal
-                
-                quake
-                
-                c99
-                
-                chinaz
-                
-                dnsdb
-                
-                dnsrepo
-                
-                fofa
-                
-                facebook
-                
-                threatbook
-                
-                robtex
-                
-                hunter
-                
+            - Go to https://github.com/settings/tokens.
+            - Click on "Generate new token."
+            - Give your token a descriptive name (e.g.: "Subfinder").
+            - Select All repository.
+            - Click "Generate token."
+            - **Copy the generated token immediately. You won't be able to see it again.**
+        - **intelx**
+            
+            [**Signup**](https://intelx.io/signup)
+            
+            [**Api**](https://intelx.io/account?tab=developer)
+            
+            **Api config formate:** [2.intelx.io:**API_key**]
+            
+        - **redhuntlabs**
+            
+            [**Sign-up**](https://devportal.redhuntlabs.com/)
+            
+            [**Subscribe FREE**](https://devportal.redhuntlabs.com/)
+            
+            [**Api**](https://devportal.redhuntlabs.com/keys)
+            
+            **Api config formate:** [https://reconapi.redhuntlabs.com/community/v1/domains/subdomains:**API_Key**]
+            
+        - **securitytrails**
+            
+            **Note: 50 Cradit free per month**
+            
+            [**Sign-up**](https://securitytrails.com/app/signup)
+            
+            [**Api**](https://securitytrails.com/app/account/credentials)
+            
+        - **shodan**
+            
+            [**Register**](https://account.shodan.io/register)
+            
+            [**Api**](https://account.shodan.io/)
+            
+        - **virustotal**
+            
+            [**Sign-up**](https://www.virustotal.com/gui/join-us)
+            
+            Api [[https://www.virustotal.com/gui/user/**Your_Username**/apikey]](https://www.virustotal.com/gui/user/Your_Username/apikey)
+            
+        - **whoisxmlapi**
+            
+            **Note: 50 scan for trail trail**
+            
+            [**Sign-up**](https://main.whoisxmlapi.com/signup?lang=en)
+            
+            [**Api**](https://user.whoisxmlapi.com/products)
+            
+        - **zoomeyeapi**
+            
+            [**Sign-up**](https://sso.telnet404.com/accounts/register/)
+            
+            [**Api**](https://www.zoomeye.org/profile)
+            
+        - **builtwith**
+            
+            **Note: Dont use tempmail**
+            
+            [**Sign-up**](https://builtwith.com/signup)
+            
+            [**Api**](https://api.builtwith.com/)
+            
+            
+            **censys**
+            
+            netlas
+            
+            leakix
+            
+            passivetotal
+            
+            quake
+            
+            c99
+            
+            chinaz
+            
+            dnsdb
+            
+            dnsrepo
+            
+            fofa
+            
+            facebook
+            
+            threatbook
+            
+            robtex
+            
+            hunter
+            
     - Active Sub Discovery
         - [Amass](https://github.com/owasp-amass/amass)
           ```
