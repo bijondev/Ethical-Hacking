@@ -26,7 +26,8 @@
         - [**subfinder**](https://github.com/projectdiscovery/subfinder)
             - **Api Config file example (provider-config.yaml)**
          ```
-         subfinder -v -d vulnweb.com | tee -a vulnweb-subfinder-in.txt
+         subfinder -d vulnweb.com -v | tee -a vulnweb-subfinder-in.txt
+         subfinder -d vulnwev.com -v -o allsub.txt
          ```
          
                 File location will be `/root/.config/subfinder/provider-config.yaml` or `/home/.config/subfinder/provider-config.yaml`
