@@ -31,7 +31,8 @@
          
                 File location will be `/root/.config/subfinder/provider-config.yaml` or `/home/.config/subfinder/provider-config.yaml`
                 
-                ```yaml
+                ```
+      yaml
                 bevigil: [WMoSVFE46rZhfTyG]
                 binaryedge: [1fe5714c-931a-4207-bf8f-jfyronfi470]
                 bufferover: [zxyj54ANcI5HcV69TRzdF43V1idade45sd4]
@@ -61,6 +62,7 @@
                 virustotal: [f2097db4444f00efd12eed428f6444]
                 whoisxmlapi: [at_JB0pXHzR8zzFbfS6MVPBcdmcmD]
                 zoomeyeapi: [F3808CF8-b35F-F6093-54f3-492ec]
+      
                 ```
 
   
