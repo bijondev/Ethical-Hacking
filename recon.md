@@ -231,6 +231,10 @@
 - URL Discovery
     
     [**katana**](https://github.com/projectdiscovery/katana)
+
+  ```
+  katana -v -u vulnwev.com > vweb-urls.txt
+  ```
     
     [**hakrawler**](https://github.com/hakluke/hakrawler)
     
