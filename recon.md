@@ -65,8 +65,7 @@
       
       ```
 
-  
-            - **Api Setup Guid**
+      - **Api Setup Guid**
                 - **bevigil**
                     
                     **Note:** You can scan 50 times per month with this web application api. You can create another account to get another 50 cradit.😁
