@@ -28,6 +28,7 @@
          ```
          subfinder -v -d vulnweb.com | tee -a vulnweb-subfinder-in.txt
          ```
+         
                 File location will be `/root/.config/subfinder/provider-config.yaml` or `/home/.config/subfinder/provider-config.yaml`
                 
                 ```yaml
@@ -61,7 +62,8 @@
                 whoisxmlapi: [at_JB0pXHzR8zzFbfS6MVPBcdmcmD]
                 zoomeyeapi: [F3808CF8-b35F-F6093-54f3-492ec]
                 ```
-                
+
+  
             - **Api Setup Guid**
                 - **bevigil**
                     
