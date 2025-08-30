@@ -289,6 +289,7 @@
 - Visualization
     
     [**Aquatone**](https://github.com/michenriksen/aquatone)
+        [**Video Tutorial**](https://www.youtube.com/watch?v=_y2IKGXMMGU)
     
 - JavaScript
     
