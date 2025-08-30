@@ -241,6 +241,10 @@
     [**gau**](https://github.com/lc/gau)
     
     [**waybackurls**](https://github.com/tomnomnom/waybackurls)
+  ```
+  cat domains.txt | waybackurls > urls
+  cat urls | httpx > active-urls.txt
+  ```
     
 - Parameter Discovery
     
