@@ -203,6 +203,9 @@
                 
     - Active Sub Discovery
         - [Amass](https://github.com/owasp-amass/amass)
+          ```
+            amass enum -d vulnweb.com -active -v | tee -a vuln-active-sub.txt
+          ```
         - [Puredns](https://github.com/d3mondev/puredns)
             
             ```
