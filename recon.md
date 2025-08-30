@@ -261,7 +261,7 @@
     
     ```bash
     #Installation_Command
-    go install [github.com/tomnomnom/gf@latest](https://github.com/tomnomnom/gf)
+    go install github.com/tomnomnom/waybackurls@latest
     
     #Pattern_Setup
     rm -rf /root/.gf && git clone https://github.com/1ndianl33t/Gf-Patterns /root/.gf
@@ -275,6 +275,7 @@
     [**httpx**](https://github.com/projectdiscovery/httpx)
   ```
   cat wordlist.txt | httpx | tee -a vweb-httpx-active.txt
+    httpx -l vwev-urls.txt
   ```
     
     [**httprobe**](https://github.com/tomnomnom/httprobe)
