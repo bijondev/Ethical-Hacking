@@ -222,6 +222,8 @@
             mkdir ~/.config/puredns
             
             nano ~/.config/puredns/resolvers.txt
+
+            cat wordlist.text | puredns bruteforce vulnweb.com
             ```
             
 - URL Discovery
