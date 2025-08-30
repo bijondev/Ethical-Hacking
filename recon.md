@@ -20,6 +20,9 @@
     [BuiltWith](https://builtwith.com/toolbar)
     
     [WhatWeb](https://github.com/urbanadventurer/whatweb)
+  ```
+  whatweb -i activsubs.txt
+  ```
     
 - Subdomain Discovery
     - Passive Sub Discovery
@@ -238,9 +241,13 @@
 
   ```
   katana -v -u vulnwev.com > vweb-urls.txt
+  katana -list activesubs.txt -o allurls.txt
   ```
     
     [**hakrawler**](https://github.com/hakluke/hakrawler)
+  ```
+  cat activsub.txt | hakrawler -u
+  ```
     
     [**gau**](https://github.com/lc/gau)
     
@@ -300,6 +307,9 @@
     
     [Fuff](https://github.com/ffuf/ffuf) 
     [dirsearch](https://github.com/maurosoria/dirsearch)
+  ```
+  dirsearch -u http://www.simscolleqe.ac.in/ -w /root/Logins.fuzz.txt
+  ```
     [wfuzz](https://github.com/xmendez/wfuzz)
     
 - Wordlists
