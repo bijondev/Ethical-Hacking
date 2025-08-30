@@ -281,6 +281,7 @@
   cat wordlist.txt | httpx | tee -a vweb-httpx-active.txt
   httpx -l vwev-urls.txt
   httpx -l vwev-urls.txt -sc
+  httpx -l allsub.txt -t 100 -v -o activesub.txt 
   ```
     
     [**httprobe**](https://github.com/tomnomnom/httprobe)
