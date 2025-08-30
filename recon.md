@@ -249,6 +249,11 @@
 - Parameter Discovery
     
     [**Paramspider**](https://github.com/devanshbatham/ParamSpider)
+
+  ```
+  apt install pipx
+  pipx install git+https://github.com/devanshbatham/ParamSpider.git
+  ```
     
     - **Gf-Patterns**
     
