@@ -253,6 +253,8 @@
   ```
   apt install pipx
   pipx install git+https://github.com/devanshbatham/ParamSpider.git
+
+  paramspider -d vulnwev.com > vwev-params.txt
   ```
     
     - **Gf-Patterns**
