@@ -46,47 +46,50 @@ nmap -SV -sC -D RND: 10 --spoof-mac dell 192168.0.106 -pN
 
 
 Here are the Nmap flags with examples:
+
 	1.	-sS (TCP SYN Scan)
+ 
 Scans using SYN packets to determine open ports in a stealthy way.
 Example:
-
+```
 nmap -sS 192.168.1.1
-
+```
 
 	2.	-sT (TCP Connect Scan)
 Establishes a full TCP connection to determine open ports.
 Example:
-
+```
 nmap -sT 192.168.1.1
-
+```
 
 	3.	-sU (UDP Scan)
 Scans for open UDP ports.
 Example:
-
+```
 nmap -sU 192.168.1.1
-
+```
 
 	4.	-p (Port specification)
 Specify which ports to scan.
 Example:
-
+```
 nmap -p 22,80,443 192.168.1.1
-
+```
 
 	5.	-sV (Service Version Detection)
 Detects versions of services running on open ports.
 Example:
-
+```
 nmap -sV 192.168.1.1
-
+```
 
 	6.	-O (OS Detection)
 Attempts to detect the operating system of the target.
 Example:
 
+```
 nmap -O 192.168.1.1
-
+```
 
 	7.	-A (Aggressive Scan)
 Performs a comprehensive scan with OS detection, version detection, script scanning, and traceroute.
