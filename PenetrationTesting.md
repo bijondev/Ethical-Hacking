@@ -132,8 +132,11 @@ nuclei -target https://example.com -dashboard
 [**finddomain**](https://github.com/Findomain/Findomain)
 
 # Technology Discovery
+
 origin ip
+
 server
+
 programming language
 
 # Asset Discovery
