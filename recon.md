@@ -214,6 +214,8 @@
         - [Amass](https://github.com/owasp-amass/amass)
           ```
             amass enum -d vulnweb.com -active -v | tee -a vuln-active-sub.txt
+
+          amass enum -active -brute -d yahoo.com -o hosts.txt
           ```
         - [Puredns](https://github.com/d3mondev/puredns)
             
