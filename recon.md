@@ -268,7 +268,7 @@
   paramspider -d vulnwev.com > vwev-params.txt
   ```
     
-    - **Gf-Patterns**
+    - [**Gf-Patterns**](https://github.com/1ndianl33t/Gf-Patterns)
     
     ```bash
     #Installation_Command
@@ -279,6 +279,8 @@
     
     #Example_Usage
     cat url.txt | gf sqli | tee -a sqli.txt
+
+    GF Paterns For (ssrf,RCE,Lfi,sqli,ssti,idor,url redirection,debug_logic, interesting Subs)
     ```
     
 - Verify Active Items
