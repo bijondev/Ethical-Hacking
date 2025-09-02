@@ -127,7 +127,7 @@ nuclei -target https://example.com -dashboard
 
 ```
 
-[**subdominator**]()
+[**subdominator**](https://github.com/RevoltSecurities/Subdominator)
 
 [**finddomain**](https://github.com/Findomain/Findomain)
 
