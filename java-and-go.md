@@ -33,4 +33,4 @@ Here are some common commands for Java and Golang, adapted from your provided fi
   
   export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
   ```
-* After editing the file, apply the changes by running `source .zshrc` [cite: 15] [cite_start]or `source .profile`.
+* After editing the file, apply the changes by running `source .zshrc` or `source .profile`.
